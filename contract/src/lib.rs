@@ -11,7 +11,7 @@ pub fn ntoy(near_amount: Balance) -> Balance {
     near_amount * 10u128.pow(24)
 }
 
-pub const CALLBACK: Gas = 25_000_000_000_000;
+pub const CALLBACK: Gas = 3_000_000_000_000; // 3 TGas
 
 #[global_allocator]
 static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
