@@ -1,0 +1,7 @@
+.vscode
+
+
+/target
+/Cargo.lock
+/res
+neardev
